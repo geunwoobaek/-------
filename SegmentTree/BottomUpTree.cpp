@@ -54,7 +54,7 @@ int query(int l, int r)
 // driver program to test the above function  
 int main()  
 { 
-    int a[] = {2,3, 7, 4, 5, 9, 6,1}; 
+    int a[] = {1,3,5,7,9,11}; 
   
     // n is global 
     n = sizeof(a)/sizeof(a[0]); 

@@ -30,7 +30,7 @@ void update(int node, int value)
 }
 int main()
 {
-    int arr[] = {2, 3, 7, 4, 5, 9, 6, 1};
+    int arr[] = {1,3,5,7,9,11}; 
     length = sizeof(arr) / sizeof(int);
     MakeSegmentTree(1, arr, 0, length);
     cout << query(1, 2, 6, 0, 7) << endl;
