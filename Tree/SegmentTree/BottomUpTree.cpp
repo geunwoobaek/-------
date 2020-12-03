@@ -18,7 +18,7 @@ void build( int arr[])
       
     // build the tree by calculating parents 
     for (int i = n - 1; i > 0; --i)      
-        tree[i] = tree[i<<1] + tree[i<<1 | 1];     
+         tree[i]= tree[i<<1] + tree[i<<1 | 1];     
 } 
   
 // function to update a tree node 
