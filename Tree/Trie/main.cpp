@@ -79,6 +79,6 @@ int main()
     tree->insert("abef");
     tree->insert("vfdbcdef");
     if (tree->string_exist("vfdbcde")) cout << "string_exist"<<"\n";
-    if (tree->is_last("abef")) cout << "last"<<"\n";
+    if (tree->is_last("abef")) cout << "last"<<"";
     return 0;
 }
