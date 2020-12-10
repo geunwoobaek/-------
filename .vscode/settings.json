@@ -5,6 +5,9 @@
         "queue": "cpp",
         "algorithm": "cpp",
         "chrono": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "array": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp"
     }
 }

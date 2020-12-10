@@ -28,7 +28,7 @@ struct node
         }
         else cout<<"이미 존재합니다."<<endl;
     }
-    void delete_(int value)
+    void delete_(int value) //root제거할경우는 왼쪽자식이있을경우 왼쪽중 가장큰값을 채워넣음, 왼쪽없을경우 오른쪽이 루트가됨
     {
         if (data < value)
         {   
