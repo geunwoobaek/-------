@@ -8,6 +8,8 @@
         "ostream": "cpp",
         "array": "cpp",
         "vector": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "regex": "cpp",
+        "sstream": "cpp"
     }
 }
