@@ -10,8 +10,8 @@ struct Maxheap
         if(now&1) return now>>1;
         else return (now>>1)-1;
     }
-    int right(int p){return p<<1+2;}
-    int left(int p){return p<<1+1;}
+    int right(int p){return (p<<1)+2;}
+    int left(int p){return (p<<1)+1;}
     int next(int l,int R){return data[l]>data[R]?l:R;}
     Maxheap(int size)
     {
