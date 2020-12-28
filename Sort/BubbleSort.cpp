@@ -5,6 +5,7 @@ vector<int> vec;
 int BubbleSort(vector<int> &vec){
     //한번실행할때마다 무조건 오른쪽으로 최소 하나씩정렬됨
     //만약정렬되지 않으면탈출
+    //
     int swap_cnt=0;
     int length=vec.size();
     for(int i=length-1;i>0;i--){
